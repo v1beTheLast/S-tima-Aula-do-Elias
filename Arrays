@@ -1,0 +1,11 @@
+string[] nomes = { "Ana", "Bruno", "Carlos", "Diana", "Eduardo" };
+
+// Mostrar todos
+foreach (string nome in nomes)
+{
+    Console.WriteLine(nome);
+}
+
+// Primeiro e último
+Console.WriteLine("Primeiro: " + nomes[0]);
+Console.WriteLine("Último: " + nomes[nomes.Length - 1]);
